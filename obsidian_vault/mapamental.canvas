@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"9dde01919789ac1a","x":-440,"y":-400,"width":1000,"height":1346,"color":"1","type":"group","label":"API"},
+		{"id":"e5b985a77c85b347","x":160,"y":-960,"width":400,"height":560,"color":"3","type":"group","label":"Infraestrutura"},
+		{"id":"44edbe8fa0f6c34b","x":-800,"y":-960,"width":360,"height":560,"color":"5","type":"group","label":"Dados"},
+		{"id":"aba0a75f6b62f58a","x":-400,"y":-360,"width":440,"height":220,"color":"3","type":"text","text":"Backend-datascience\n\n\t\tpython\n\t\t\"api flask/fastapi\"(caso\n\t\t haja necessidade)\n\t\tpandas\n\t\tscikitlearn\n\t"},
+		{"id":"e7e9615c7c979a44","type":"text","text":"Backend\n│\n├── Ruby on Rails\n│   └── API REST\n│\n├── Banco de dados\n│   └── pg\n│       └── PostgreSQL\n│\n├── Servidor\n│   └── Puma\n│       └── Servidor HTTP\n│\n├── Comunicação\n│   └── Rack CORS\n│       └── Comunicação React ↔ Rails\n│\n├── Segurança\n│   ├── BCrypt\n│   │   └── Hash de senhas\n│   │\n│   └── JWT\n│       └── Autenticação\n│\n├── Integração\n│   └── Faraday\n│       └── Requisições HTTP\n│\n├── Configuração\n│   └── Dotenv Rails\n│       └── Variáveis de ambiente\n│\n└── Qualidade\n    ├── RSpec Rails\n    │   └── Testes automatizados\n    │\n    └── RuboCop\n        └── Padronização de código","x":-400,"y":-100,"width":440,"height":980,"color":"#ff0000"},
+		{"id":"8256b8488b88f028","x":80,"y":-360,"width":440,"height":967,"color":"#007bff","type":"text","text":"Frontend\n│\n├── React\n│   └── Interface\n│\n├── TypeScript\n│   └── Tipagem\n│\n├── Vite\n│   └── Build e desenvolvimento\n│\n├── Navegação\n│   └── React Router\n│       └── Rotas\n│\n├── Comunicação\n│   ├── Axios\n│   │   └── Requisições HTTP\n│   │\n│   └── TanStack Query\n│       └── Cache e sincronização\n│\n├── Formulários\n│   ├── React Hook Form\n│   │   └── Gerenciamento de formulários\n│   │\n│   └── Zod\n│       └── Validação\n│\n├── Visualização\n│   ├── Recharts\n│   │   └── Gráficos\n│   │\n│   └── Lucide React\n│       └── Ícones\n│\n└── Animações\n    └── Motion\n        └── Animações e transições"},
+		{"id":"cb0d238c631f32ea","x":220,"y":-924,"width":280,"height":84,"type":"text","text":"\tThingspeak"},
+		{"id":"b70345fd1bb73e26","x":220,"y":-776,"width":280,"height":256,"type":"text","text":"Hospedagem\n\n\trender{\n\t Ruby on rails\n\tpostgreSQL\n\t}\n\t+\n\tvercel{React}"},
+		{"id":"651b1e49491b71b7","x":-400,"y":-870,"width":250,"height":60,"type":"text","text":"HarvestPoint"},
+		{"id":"660a74dc055af50f","x":-740,"y":-894,"width":240,"height":194,"type":"text","text":"Esp32\n\n\tdht11\n\t(temperatura)\n\t(umidade)\n\tHTTP"},
+		{"id":"308ed0f3056defe6","x":-740,"y":-660,"width":240,"height":220,"type":"text","text":"Banco de dados\n\n\tRelacional\n\tpostgreSQL\n\t11 entidades\n\t(inicialmente)"},
+		{"id":"0ebad1465fd83b0c","x":-1120,"y":-400,"width":675,"height":706,"type":"text","text":"|Camada|Tecnologia|Função|\n|---|---|---|\n|**Hardware**|ESP32 + Arduino IDE|Coleta dos sensores|\n|**IoT**|ThingSpeak|Recepção, armazenamento e visualização inicial dos dados IoT|\n|**Protocolo IoT**|HTTP/HTTPS|Comunicação ESP32 ↔ ThingSpeak|\n|**Alternativa IoT**|MQTT|Comunicação IoT de menor overhead / publicação-assinatura|\n|**Backend**|Ruby on Rails|API REST, regras de negócio e integração|\n|**Backend HTTP**|Puma|Servidor da aplicação Rails|\n|**Banco**|PostgreSQL|Persistência principal dos dados|\n|**ORM**|Active Record|Comunicação Rails ↔ PostgreSQL|\n|**Frontend**|React + TypeScript + Vite|Interface/PWA|\n|**Frontend hospedagem**|Vercel|Hospedagem do React|\n|**Backend hospedagem**|Render|Execução da API Rails|\n|**Banco hospedagem**|Render PostgreSQL|Banco PostgreSQL gerenciado|\n|**Dados/API**|REST + JSON|Comunicação frontend ↔ backend|\n|**Animações**|Motion|Interações e animações da interface|\n|**Gráficos**|Recharts|Visualização de dados climáticos|"}
+	],
+	"edges":[
+		{"id":"3e54632ff8e65f71","fromNode":"651b1e49491b71b7","fromSide":"left","toNode":"44edbe8fa0f6c34b","toSide":"right"},
+		{"id":"0c2b73c89384cc45","fromNode":"651b1e49491b71b7","fromSide":"bottom","toNode":"9dde01919789ac1a","toSide":"top"},
+		{"id":"d69892b678a17d5b","fromNode":"651b1e49491b71b7","fromSide":"right","toNode":"e5b985a77c85b347","toSide":"left"}
+	]
+}
