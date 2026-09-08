@@ -15,9 +15,9 @@
               "state": {
                 "file": "mapamental.canvas",
                 "viewState": {
-                  "x": 456.2884135337615,
-                  "y": -95.96998531783134,
-                  "zoom": -1.166666652217056
+                  "x": 500.0436130159423,
+                  "y": -216.44601817690827,
+                  "zoom": -1.499999978325584
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "mapamental.canvas",
+                "file": "Pasted image 20260907210824.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "mapamental.canvas",
+                "file": "Pasted image 20260907210824.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "mapamental.canvas",
+                "file": "Pasted image 20260907210824.png",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -191,8 +191,9 @@
       "bases:Criar nova base": false
     }
   },
-  "active": "24088256eb3e6e25",
+  "active": "9053fb0f12f1901a",
   "lastOpenFiles": [
+    "Pasted image 20260907210824.png",
     "mapamental.canvas",
     "Bem-vindo.md"
   ]
